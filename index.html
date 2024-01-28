@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>GeeksterPok</title>
+</head>
+<body>
+    <header>
+        <h1>GeeksterMon</h1>
+    </header>
+    
+    <main>
+        <div class="controls">
+            <button id="filterBtn" onclick="filterByType()">Filter by Type</button>
+            <button id="resetBtn" onclick="resetFilter()">Reset</button>
+            <select id="typeSelect">
+                <option value="all">All Types</option>
+                <!-- Pokémon types will be dynamically populated on window load -->
+            </select>
+        </div>
+
+
+
+        <div id="pokemonList" class="pokemon-container">
+            <!-- Pokémon list will be dynamically populated on window load -->
+        </div>
+        <!-- <div class="flip-card-back">
+            <h1>John Doe</h1> 
+            <p>Architect & Engineer</p> 
+            <p>We love that guy</p>
+          </div>
+        </div>
+      </div>
+    </main> -->
+
+    <script src="script.js"></script>
+</body>
+</html>
