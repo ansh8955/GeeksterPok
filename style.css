@@ -9,18 +9,6 @@ body {
     color: #333;
 }
 
-
-
-header {
-    font-family: Grandstander;
-    color:black;
-    text-align: center;
-    padding: 20px 0;
-     width: 100%;
-     font-size: 1.5rem;
-     background-color: white;
-}
-
 main {
     background-color: white;
     display: flex;
